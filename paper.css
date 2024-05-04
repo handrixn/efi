@@ -33,6 +33,7 @@
   right: 10px;
   line-height: 25px;
   font-family: 'Indie Flower';
+  font-size: .85em;
   overflow: hidden;
   outline: none;
 }
@@ -75,7 +76,7 @@
       }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .paper {
         height: 450px;
         width: 350px;
